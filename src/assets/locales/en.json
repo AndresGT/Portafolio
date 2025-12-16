@@ -1,0 +1,20 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects"
+  },
+
+  "home": {
+    "title": "FullStack Developer",
+    "description": "I am a Full Stack Developer focused on cross-platform development, passionate about building innovative and efficient solutions.",
+    "download": ""
+  },
+  "about": {
+    "info-title": "About Me",
+    "info-description": "",
+    "card-title": "",
+    "card-description": "",
+    "card-tag": ""
+  }
+}

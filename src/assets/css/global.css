@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (min-width: 1024px) {
+  body {
+    background-image: url("../fondo.gif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.9);
+    background-blend-mode: hard-light;
+  }
+}
+@media (max-width: 1023px) {
+  body {
+    background-image: url("../fondo2.gif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.9);
+    background-blend-mode: lighten;
+  }
+}

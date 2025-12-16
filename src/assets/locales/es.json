@@ -1,0 +1,19 @@
+{
+  "header": {
+    "home": "Inicio",
+    "about": "Sobre mi",
+    "projects": "Proyectos"
+  },
+  "home": {
+    "title": "Desarrollador FullStack",
+    "description": "Soy un desarrollador Full Stack enfocado en el desarrollo multiplataforma, apasionado por crear soluciones innovadoras y eficientes.",
+    "download": ""
+  },
+  "about":{
+    "info-title":"Sobre Mi",
+    "info-description":"",
+    "card-title":"",
+    "card-description":"",
+    "card-tag":""
+  }
+}
