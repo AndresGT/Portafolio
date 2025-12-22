@@ -9,11 +9,11 @@
     "description": "Soy un desarrollador Full Stack enfocado en el desarrollo multiplataforma, apasionado por crear soluciones innovadoras y eficientes.",
     "download": ""
   },
-  "about":{
-    "info-title":"Sobre Mi",
-    "info-description":"",
-    "card-title":"",
-    "card-description":"",
-    "card-tag":""
+  "about": {
+    "info-title": "SOBRE MI",
+    "info-description": "Hola soy Diego Andrés Giraldo T. (DevAndresGT), Desarrollador FullStack especializado en desarrollo Multiplataforma. Me apasiona crear soluciones innovadoras yque integren software y hardware de manera eficiente. Te invito a conocer mi perfil tecnico, los proyectos en los que he trabajado, mi enfoque para el desarrollo de software y como me mantengo actualizado en las ultimas tendencias tecnologicas del ecosistema multiplataforma.",
+    "card-title": "",
+    "card-description": "",
+    "card-tag": ""
   }
 }

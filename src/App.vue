@@ -68,6 +68,9 @@ export default {
 </script>
 
 <style>
+*{
+    font-family: 'Noto Sans', sans-serif;
+}
 #app {
   header {
     position: fixed;
