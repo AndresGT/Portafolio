@@ -26,7 +26,7 @@
               <a href="#about">{{ $t("header.about") }}</a>
             </li>
             <li>
-              <a href="#">{{ $t("header.projects") }}</a>
+              <a href="#projects">{{ $t("header.projects") }}</a>
             </li>
           </ul>
         </div>

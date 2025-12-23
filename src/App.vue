@@ -6,6 +6,7 @@
     <main ref="horizontalMain">
       <AppHome />
       <AppAbout />
+      <AppProjects />
     </main>
     <footer>
       <AppFooter />
@@ -18,6 +19,7 @@ import AppHeader from "./components/layout/Header.vue";
 import AppFooter from "./components/layout/Footer.vue";
 import AppHome from "./components/sections/Home.vue";
 import AppAbout from "./components/sections/About.vue";
+import AppProjects from "./components/sections/Projects.vue";
 
 export default {
   name: "App",
@@ -26,6 +28,7 @@ export default {
     AppFooter,
     AppHome,
     AppAbout,
+    AppProjects,
   },
   mounted() {
     const main = this.$refs.horizontalMain;
@@ -68,8 +71,8 @@ export default {
 </script>
 
 <style>
-*{
-    font-family: 'Noto Sans', sans-serif;
+* {
+  font-family: "Noto Sans", sans-serif;
 }
 #app {
   header {

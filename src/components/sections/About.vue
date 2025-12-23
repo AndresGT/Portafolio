@@ -7,23 +7,27 @@
       </div>
     </section>
     <section class="card">
-      <div class="card-svg">
-        <CoderIcon style="fill: white" size="30px" />
+      <div class="card-header">
+        <div class="card-logo">
+          <img src="../../assets/imgs/logo.png" />
+        </div>
+        <div class="card-title">
+          <h3>DevAndresGT</h3>
+          <p>{{ $t("about.card-description") }}</p>
+        </div>
       </div>
       <div class="card-footer">
-        <p class="card-title">全栈开发人员</p>
+        <h5>{{ $t("about.card-tag") }}</h5>
+        <p>{{ $t("about.card-footer") }}</p>
       </div>
     </section>
   </div>
 </template>
-<script>
-import { CoderIcon } from "vue3-simple-icons";
 
+<script>
 export default {
   name: "AppAbout",
-  components: {
-    CoderIcon,
-  },
+  components: {},
   methods: {
     setLanguage(lang) {
       this.$i18n.locale = lang;
@@ -31,6 +35,7 @@ export default {
   },
 };
 </script>
+
 <style>
 #about {
   min-width: 100vw;
@@ -44,21 +49,52 @@ export default {
     margin: 15vh 0;
     width: 30vw;
     h2 {
-        text-align: center;
+      text-align: center;
       margin-bottom: 10vh;
     }
-    p{
-        text-align: justify;
-
+    p {
+      text-align: justify;
     }
   }
   .card {
+    margin: 15vh 0;
     width: 70vh;
     height: 40vh;
     border-radius: 50px;
     background-color: rgb(0, 0, 0, 0.9);
     border: 2px solid gray;
     padding: 16px 16px;
+    .card-header {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      .card-logo{
+          img {
+            width: 20vh;
+          }
+      }
+      .card-title {
+        margin-left: 50px;
+        text-align: center;
+        h3{
+            font-size: 2rem;
+            font-weight: bold;
+        }
+      }
+    }
+    .card-footer {
+      margin: 20px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h5 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      p {
+        text-align: justify;
+      }
+    }
   }
 }
 </style>
