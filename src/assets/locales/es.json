@@ -16,5 +16,8 @@
     "card-description": "Full Stack Developer",
     "card-tag": "HTML · CSS · SASS · GO · Dart · JS · TS · JAVA · KOTLIN · SWIFT · NODE",
     "card-footer": "Aplicaciones Web y Móviles"
+  },
+  "projects": {
+    "title": "PROYECTOS"
   }
 }

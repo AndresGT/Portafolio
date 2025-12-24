@@ -3,11 +3,13 @@
     <header>
       <AppHeader />
     </header>
+
     <main ref="horizontalMain">
       <AppHome />
       <AppAbout />
       <AppProjects />
     </main>
+
     <footer>
       <AppFooter />
     </footer>
@@ -33,6 +35,7 @@ export default {
   mounted() {
     const main = this.$refs.horizontalMain;
     const sections = main.children;
+
     let currentIndex = 0;
     let isScrolling = false;
 
@@ -49,12 +52,29 @@ export default {
 
       setTimeout(() => {
         isScrolling = false;
-      }, 700); // duración de la transición
+      }, 700);
     };
 
     main.addEventListener(
       "wheel",
       (e) => {
+        const currentSection = sections[currentIndex];
+
+        const canScrollDown =
+          currentSection.scrollTop + currentSection.clientHeight <
+          currentSection.scrollHeight;
+
+        const canScrollUp = currentSection.scrollTop > 0;
+
+        // Si la sección aún puede hacer scroll vertical, no interceptamos
+        if (
+          (e.deltaY > 0 && canScrollDown) ||
+          (e.deltaY < 0 && canScrollUp)
+        ) {
+          return;
+        }
+
+        // Si no puede scrollear más, cambiamos de página
         e.preventDefault();
         if (isScrolling) return;
 
@@ -74,31 +94,50 @@ export default {
 * {
   font-family: "Noto Sans", sans-serif;
 }
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
 #app {
-  header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  main {
-    margin-top: 12dvh;
-    width: 100%;
-    height: 84dvh;
-    display: flex;
-    flex-direction: row;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-    &::-webkit-scrollbar {
-      display: none;
-    }
-    scroll-behavior: smooth;
-  }
-  footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
+  height: 100vh;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 12dvh;
+  z-index: 10;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 4dvh;
+  z-index: 10;
+}
+
+main {
+  margin-top: 12dvh;
+  height: 84dvh;
+
+  display: flex;
+  flex-direction: row;
+
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+main::-webkit-scrollbar {
+  display: none;
 }
 </style>

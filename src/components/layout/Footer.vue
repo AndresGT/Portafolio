@@ -15,8 +15,9 @@ export default {
 
 <style>
 #footer {
-  font-size: 0.85rem;
-  font-weight: 400;
+  padding: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 700;
   opacity: 0.7;
   color: wheat;
 }

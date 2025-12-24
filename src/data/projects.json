@@ -1,0 +1,106 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": {
+        "es": "Handler Discord.js",
+        "en": "Handler Discord.js"
+      },
+      "description": {
+        "es": "Es una plantilla para crear un bot de discord usando node.js y discord.js",
+        "en": "It's a template to create a discord bot using node.js and discord.js"
+      },
+      "image": "/projects/discord-js.webp",
+      "github": "https://github.com/AndresGT/Handler_Discord.js",
+      "tags": ["discord.js", "node.js", "JavaScript"],
+      "demo": "",
+      "website": "",
+      "appstore": ["googleplay", "applestore"]
+    },
+    {
+      "id": 2,
+      "name": {
+        "es": "Handler Discord.js",
+        "en": "Handler Discord.js"
+      },
+      "description": {
+        "es": "Es una plantilla para crear un bot de discord usando node.js y discord.js",
+        "en": "It's a template to create a discord bot using node.js and discord.js"
+      },
+      "image": "/projects/discord-js.webp",
+      "github": "https://github.com/AndresGT/Handler_Discord.js",
+      "tags": ["discord.js", "node.js", "JavaScript"],
+      "demo": "",
+      "website": "",
+      "appstore": ["googleplay", "applestore"]
+    },
+    {
+      "id": 3,
+      "name": {
+        "es": "Handler Discord.js",
+        "en": "Handler Discord.js"
+      },
+      "description": {
+        "es": "Es una plantilla para crear un bot de discord usando node.js y discord.js",
+        "en": "It's a template to create a discord bot using node.js and discord.js"
+      },
+      "image": "/projects/discord-js.webp",
+      "github": "https://github.com/AndresGT/Handler_Discord.js",
+      "tags": ["discord.js", "node.js", "JavaScript"],
+      "demo": "",
+      "website": "",
+      "appstore": ["googleplay", "applestore"]
+    },
+     {
+      "id": 1,
+      "name": {
+        "es": "Handler Discord.js",
+        "en": "Handler Discord.js"
+      },
+      "description": {
+        "es": "Es una plantilla para crear un bot de discord usando node.js y discord.js",
+        "en": "It's a template to create a discord bot using node.js and discord.js"
+      },
+      "image": "/projects/discord-js.webp",
+      "github": "https://github.com/AndresGT/Handler_Discord.js",
+      "tags": ["discord.js", "node.js", "JavaScript"],
+      "demo": "",
+      "website": "",
+      "appstore": ["googleplay", "applestore"]
+    },
+    {
+      "id": 2,
+      "name": {
+        "es": "Handler Discord.js",
+        "en": "Handler Discord.js"
+      },
+      "description": {
+        "es": "Es una plantilla para crear un bot de discord usando node.js y discord.js",
+        "en": "It's a template to create a discord bot using node.js and discord.js"
+      },
+      "image": "/projects/discord-js.webp",
+      "github": "https://github.com/AndresGT/Handler_Discord.js",
+      "tags": ["discord.js", "node.js", "JavaScript"],
+      "demo": "",
+      "website": "",
+      "appstore": ["googleplay", "applestore"]
+    },
+    {
+      "id": 3,
+      "name": {
+        "es": "Handler Discord.js",
+        "en": "Handler Discord.js"
+      },
+      "description": {
+        "es": "Es una plantilla para crear un bot de discord usando node.js y discord.js",
+        "en": "It's a template to create a discord bot using node.js and discord.js"
+      },
+      "image": "/projects/discord-js.webp",
+      "github": "https://github.com/AndresGT/Handler_Discord.js",
+      "tags": ["discord.js", "node.js", "JavaScript"],
+      "demo": "",
+      "website": "",
+      "appstore": ["googleplay", "applestore"]
+    }
+  ]
+}
